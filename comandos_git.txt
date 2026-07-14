@@ -1,0 +1,2 @@
+git init -> inicia repositorio git git status -> mostra status do trabalho
+
