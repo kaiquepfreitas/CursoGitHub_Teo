@@ -1,0 +1,2 @@
+Esse arquivo contem comandos secundários
+teste ok okok
