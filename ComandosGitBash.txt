@@ -1,0 +1,54 @@
+cd ~/OneDrive/Desktop - 
+cd -> change directory
+
+ls -> list the directory contente
+
+ls -a acessar arquivos ocultos - arquivos que começam com "ponto" - ".." = pasta mãe, volta para pasta anterior
+
+pwd - caminho absoluto do diretório atual - print work directory
+
+mkdir -> criar nova pasta
+
+ls -a
+
+ls . 
+
+cat "NomeArquivo+Extensao" -> acessa conteúdo do arquivo de texto
+
+rm -rf .git -> remove a extensão git da pasta, volta a ser normal - rf não perde confirmação e remova todas as subpastas
+Obs. Cuidado onde aplicar esse comando, pois é um comando de exclusão, atenção redobrada repositórios do sistema
+"rf" -> fax exclusão sem pedir permissão
+
+Comandos Git:
+
+git init . -> torna a pasta especial, possibilitando versionamento com git
+
+git status ->
+Consegue verificar arquivos que ainda não estão participando do versionamento
+
+git add -> prepara o que vai "commitar"
+
+git config --global user.email "kaiquepfreitas@gmail.com"
+configurar e-mail que está registrando aquelas alterações
+isso faz-se apenas uma vez - configuração "global"
+Para testar se deu certo -> git config --global user.email / git config --global user.name / aparecerá nome e e-mail cadastrado
+
+git commit -m "Primeiros comandos com bash"
+
+git log -> histórico de todos os commits
+
+"." -> pasta atual
+
+git add "." -> commita tudo da pasta atual
+
+nano -> programa para editar textos dentro do terminal gitbash
+exemplo: nano comandos_git.txt
+CTRL + O para salvar arquivo
+CTRL + X para sair
+
+CTRL + L -> limpar comandos executados terminal
+
+SHIT + INSERT -> colar conteúdo compiado
+
+SETA PARA CIMA -> volta para o comando anterior -> útil para reutilizar ou visualizar comando anterior
+
