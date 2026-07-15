@@ -41,6 +41,8 @@ git log -> histórico de todos os commits
 
 git add "." -> commita tudo da pasta atual
 
+
+
 nano -> programa para editar textos dentro do terminal gitbash
 exemplo: nano comandos_git.txt
 CTRL + O para salvar arquivo
