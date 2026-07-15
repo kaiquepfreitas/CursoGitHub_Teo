@@ -2,3 +2,12 @@ git init -> inicia repositorio git git status -> mostra status do trabalho
 
 rm -rf remove de forma recursiva e forçada diretorios
 
+
+add
+
+
+add
+
+teste add
+
+add teste
