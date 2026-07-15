@@ -41,6 +41,11 @@ git log -> histórico de todos os commits
 
 git add "." -> commita tudo da pasta atual
 
+git reset "nome do arquivo+extensao"
+remover arquivo da fase de stage, quando utiliza o comando git add
+
+
+
 
 
 nano -> programa para editar textos dentro do terminal gitbash
