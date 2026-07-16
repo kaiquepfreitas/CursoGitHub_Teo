@@ -42,10 +42,13 @@ git log -> histórico de todos os commits
 git add "." -> commita tudo da pasta atual
 
 git reset "nome do arquivo+extensao"
-remover arquivo da fase de stage, quando utiliza o comando git add
+remover arquivo da fase de sague, quando utiliza o comando git add
 
+git checkout -b +"nome branch - a ser definido"
 
+git branch -> mostra todas as branchs do projeto e sinaliza a branch atual
 
+git checkout main -> volta para a branch principal (main)
 
 
 nano -> programa para editar textos dentro do terminal gitbash
