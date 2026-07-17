@@ -1,0 +1,25 @@
+##GITHUB - Plataforma para colocar os projetos na nuvem - integrado com o Git
+
+1) Criar novo projeto no Git
+2) HTTP e SSH 
+Http -> precisa sempre fazer login
+Ssh -> o git reconhece a máquina em questão como sua
+3) Subir projeto na nuvem
+git remote add origin "https://github.com/kaiquepfreitas/CursoGitHub_Teo.git" -> link projeto no GitHub
+
+**
+git branch -M main -> padronizar o nome da branch para main;
+git push -u origin main -> envia para a origin as alterações que aconteceram na branch main
+pode fazer assim tbm: git push origin main -> sem o comando "-u"
+4) No terminal bash
+git remote --help -> acessar documentação comandos
+git --help
+5) comando no gitbash:
+touch README.md -> criar um arquivo que contenha nada 
+comando apenas de exemplo, inclusive nome da pasta - arquivo markdown
+6) git push origin "nome_branch"
+7) mesclar branch_secundarias com main no GitHub
+merge no GitHub - compare + pull request
+8) Importante: quando faz o marge com a main no GitHub, não altera local automaticamente. O que fazer:
+git pull origin main
+Atualiza a main local
