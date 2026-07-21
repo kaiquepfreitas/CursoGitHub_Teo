@@ -58,7 +58,7 @@ para que o comando funcione, você não pode estar na branch que está sendo exc
 
 git pull origin main -> atualizar o repositório offline e deixando igual ao repositório remoto - caso de ter saído alguma atualização por parte de outras pessoas do time, você atualiza o projeto local
 
-git push -u origin nomeDaBranch -> 
+git push -u origin nomeDaBranch -> subir alterações para repositório no GitHub
 
 ##CONFLITOS
 Quando faz o merge de duas branchs secundarias distintas e que estão alterando a mesma linha, por exemplo, no caso de arquivos de texto. Cria-se uma etapa main-merging, onde o arquivo com conflito deve ser acessado e estarão destacadas todas os conflitos - devendo ser alterado manualmente, para corrigir, e commitar essa alteração. Após isso encerra-se a etapa main-merging e automaticamente o local é alterado para a branch main, que estava tendo conflito.
