@@ -45,10 +45,23 @@ git reset "nome do arquivo+extensao"
 remover arquivo da fase de sague, quando utiliza o comando git add
 
 git checkout -b +"nome branch - a ser definido"
+obs.: a branch secundaria é criada a partir da branch atual. Então se estiver em uma branch que seja diferente da main, os arquivos clonados da branch atual e não da main.
 
 git branch -> mostra todas as branchs do projeto e sinaliza a branch atual
 
 git checkout main -> volta para a branch principal (main)
+
+git merge + "Nome_Branch" -> junta os commits da branch secundaria na branch principal - apenas comandos "commitados"
+
+git branch -D "nome da branch a ser excluída" -> uma branch
+para que o comando funcione, você não pode estar na branch que está sendo excluída
+
+git pull origin main -> atualizar o repositório offline e deixando igual ao repositório remoto - caso de ter saído alguma atualização por parte de outras pessoas do time, você atualiza o projeto local
+
+##CONFLITOS
+Quando faz o merge de duas branchs secundarias distintas e que estão alterando a mesma linha, por exemplo, no caso de arquivos de texto. Cria-se uma etapa main-merging, onde o arquivo com conflito deve ser acessado e estarão destacadas todas os conflitos - devendo ser alterado manualmente, para corrigir, e commitar essa alteração. Após isso encerra-se a etapa main-merging e automaticamente o local é alterado para a branch main, que estava tendo conflito.
+
+HEAD -> último commit da branch 	
 
 
 nano -> programa para editar textos dentro do terminal gitbash
