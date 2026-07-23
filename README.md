@@ -43,8 +43,6 @@ Além do canal no youtube, acompanhe o site e agenda para acompanhar toda a prog
 
 [teomewhy.org](https://teomewhy.org/schedule)
 
-++
-
 Pessoas pariticipantes:
 
 - Teo
