@@ -37,6 +37,12 @@ Final do curso GitFlow e VisualStudioCode
 
 -------
 
+[Curso Git 2025](https://youtube.com/@teomewhy)
+
+Além do canal no youtube, acompanhe o site e agenda para acompanhar toda a programação do que vai rolar.
+
+[teomewhy.org](https://teomewhy.org/schedule)
+
 Pessoas pariticipantes:
 
 - Teo
